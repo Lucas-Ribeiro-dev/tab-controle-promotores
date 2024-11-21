@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de entrada e saída</title>
+</head>
+
+<body>
+    <form action="post">
+        <header>
+            <h1>Controle de entrada e saída</h1>
+        </header>
+
+        <section class="unidades">
+            <h2>Cadastro de Unidades</h2>
+            <div class="gp_1">
+                <label class="form_label" for="numero_loja">Número da Loja: </label>
+                <input type="number" name="numero_loja" id="numero_loja" placeholder="Digite o número da loja">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="nome_loja">Nome da Loja: </label>
+                <input type="text" name="nome_loja" id="nome_loja" placeholder="Digite o nome da loja">
+            </div>
+        </section>
+
+        <section class="industrial">
+            <h2>Cadastro de Industrias</h2>
+            <div class="gp_1">
+                <label class="form_label" for="cnpj">CNPJ: </label>
+                <input type="text" name="cnpj" id="cnpj" placeholder="Informe o CNPJ">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="raz_social">Razão Social: </label>
+                <input type="text" name="raz_social" id="raz_social" placeholder="Informe o Razão Social">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="fantasia">Nome fantasia: </label>
+                <input type="text" name="fantasia" id="fantasia" placeholder="Informe o nome fantasia">
+            </div>
+        </section>
+
+        <section class="promotores">
+            <h2>Cadastro de Promotores</h2>
+            <div class="gp_1">
+                <label class="form_label" for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="cpf" placeholder="Informe o CPF">
+            </div>
+
+
+            <div class="gp_1">
+                <label class="form_label" for="nome_compl">Nome Completo: </label>
+                <input type="text" name="nome_compl" id="nome_compl" placeholder="Digite o nome completo">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="endereco">Endereço: </label>
+                <input type="text" name="endereco" id="endereco" placeholder="Informe o endereço">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="telefone">Telefone: </label>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite o número de telefone">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="email">E-Mail: </label>
+                <input type="text" name="email" id="email" placeholder="Informe o E-Mail">
+            </div>
+
+            <div class="gp_1">
+                <label class="form_label" for="vinculo">Vinculo Industrial: </label>
+                <input type="text" name="vinculo" id="vinculo" placeholder="Digite o vinculo industrial">
+            </div>
+
+                <h4 class="subtitulo">Horário de Entrada e Saída</h4>
+                <div class="gp_1">
+                    <label class="form_label-h" for=" entrada">Entrada: </label>
+                    <input class="horario" type="text" name="entrada" id="entrada" value="">
+                </div>
+
+                <div class="gp_1">
+                    <label class="form_label-h" for="saida">Saída: </label>
+                    <input class="horario" type="text" name="saida" id="saida" value="">
+                </div>
+        </section>
+
+    </form>
+
+    <!-- Instalação Jquery para aplicação de mascaras de input -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+    <!-- Scripts de Mascaras de input -->
+     <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.gp_1 {
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+
+}
+
+.horario {
+    width: 150px;
+}
+
+.subtitulo {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_label {
+    margin-bottom: 5px;
+    
+}
+
+.form_label-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input {
+    padding: 2px;
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 0.1px;
+}
+
+input:hover{
+    border: 1px, solid, #ced4da;
+    transition-behavior: normal, normal;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    transition-property: border-color, box-shadow;
+    
+}
