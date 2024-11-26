@@ -36,7 +36,8 @@ section {
 }
 
 .subtitulo {
-    margin-top: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +52,17 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main-div-2 {
+    display: flex;
+    margin: 0px;
+}
+
+.btn-digital {
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 

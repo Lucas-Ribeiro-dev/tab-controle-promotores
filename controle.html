@@ -52,7 +52,6 @@
                 <input type="text" name="cpf" id="cpf" placeholder="Informe o CPF">
             </div>
 
-
             <div class="gp_1">
                 <label class="form_label" for="nome_compl">Nome Completo: </label>
                 <input type="text" name="nome_compl" id="nome_compl" placeholder="Digite o nome completo">
@@ -78,16 +77,25 @@
                 <input type="text" name="vinculo" id="vinculo" placeholder="Digite o vinculo industrial">
             </div>
 
-                <h4 class="subtitulo">Horário de Entrada e Saída</h4>
+            <h3 class="subtitulo">Horário de Entrada e Saída</h3>
+            <div class="main-div-2">
                 <div class="gp_1">
                     <label class="form_label-h" for=" entrada">Entrada: </label>
-                    <input class="horario" type="text" name="entrada" id="entrada" value="">
+                    <input class="horario" type="text" name="entrada" id="entrada" placeholder="09:00h">
                 </div>
 
                 <div class="gp_1">
                     <label class="form_label-h" for="saida">Saída: </label>
-                    <input class="horario" type="text" name="saida" id="saida" value="">
+                    <input class="horario" type="text" name="saida" id="saida" placeholder="17:00h">
                 </div>
+            </div>
+
+            <h3 class="subtitulo">Coleta de Digital</h3>
+            <div class="digitais">
+                <button class="btn-digital" id="digital-1">Cadastrar Digital 1</button>
+                <button class="btn-digital" id="digital-2">Cadastrar Digital 2</button>
+            </div>
+           
         </section>
 
     </form>
@@ -97,7 +105,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
 
     <!-- Scripts de Mascaras de input -->
-     <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
+
+    <!-- Script para PopUp de coleta de digital -->
+    <script src="popupdedo.js"></script>
 </body>
 
 </html>
