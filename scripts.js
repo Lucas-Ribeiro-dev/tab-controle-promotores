@@ -1,5 +1,15 @@
+// Scripts das Máscaras de INPUT
+$(document).ready(function() {
+    $('#cnpj').mask('00.000.000/0000-00', {reverse: true});
+    $('#cpf').mask('000.000.000-00', {reverse: true});
+    $('#telefone').mask('(00) 0000-0000');
+    $('#entrada').mask('00:00h');
+    $('#saida').mask('00:00h');
+});
+
 const digital1 = document.getElementById('digital1');
 const digital2 = document.getElementById('digital2');
+
 
 function cadastrarDigital(dedo) {
     Swal.fire({
